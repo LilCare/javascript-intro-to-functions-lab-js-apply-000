@@ -8,7 +8,6 @@ function whisper(string){
 
 var spy = shout("hello");
 console.log(spy);
-return spy;
 
 spy = whisper(spy);
 console.log(whisper(spy));
