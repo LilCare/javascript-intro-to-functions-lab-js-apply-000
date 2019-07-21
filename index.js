@@ -7,8 +7,7 @@ function whisper(string){
 }
 
 spy = shout("hello");
-return spy;
 console.log(spy);
 
 spy = whisper(spy);
-console.log(whisper("hello"));
+console.log(whisper(spy));
